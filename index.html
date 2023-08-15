@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta name="description" content="Neural Categorical Priors for Physics-Based Character Control">
+  <meta property="og:title" content="Neural Categorical Priors for Physics-Based Character Control"/>
+  <meta property="og:description" content="Recent advances in learning reusable motion priors have demonstrated their effectiveness in generating naturalistic behaviors. In this paper, we propose a new learning framework in this paradigm for controlling physics-based characters with significantly improved motion quality and diversity over existing state-of-the-art methods. The proposed method uses reinforcement learning (RL) to initially track and imitate life-like movements from unstructured motion clips using the discrete information bottleneck, as adopted in the Vector Quantized Variational AutoEncoder (VQ-VAE). This structure compresses the most relevant information from the motion clips into a compact yet informative latent space, i.e., a discrete space over vector quantized codes. By sampling codes in the space from a trained categorical prior distribution, high-quality life-like behaviors can be generated, similar to the usage of VQ-VAE in computer vision. Although this prior distribution can be trained with the supervision of the encoder's output, it follows the original motion clip distribution in the dataset and could lead to imbalanced behaviors in our setting. To address the issue, we further propose a technique named prior shifting to adjust the prior distribution using curiosity-driven RL. The outcome distribution is demonstrated to offer sufficient behavioral diversity and significantly facilitates upper-level policy learning for downstream tasks. We conduct comprehensive experiments using humanoid characters on two challenging downstream tasks, sword-shield striking and two-player boxing game. Our results demonstrate that the proposed framework
+is capable of controlling the character to perform considerably high-quality movements in terms of behavioral strategies, diversity, and realism.  "/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
@@ -14,8 +15,9 @@
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta name="twitter:title" content="Neural Categorical Priors for Physics-Based Character Control">
+  <meta name="twitter:description" content="Recent advances in learning reusable motion priors have demonstrated their effectiveness in generating naturalistic behaviors. In this paper, we propose a new learning framework in this paradigm for controlling physics-based characters with significantly improved motion quality and diversity over existing state-of-the-art methods. The proposed method uses reinforcement learning (RL) to initially track and imitate life-like movements from unstructured motion clips using the discrete information bottleneck, as adopted in the Vector Quantized Variational AutoEncoder (VQ-VAE). This structure compresses the most relevant information from the motion clips into a compact yet informative latent space, i.e., a discrete space over vector quantized codes. By sampling codes in the space from a trained categorical prior distribution, high-quality life-like behaviors can be generated, similar to the usage of VQ-VAE in computer vision. Although this prior distribution can be trained with the supervision of the encoder's output, it follows the original motion clip distribution in the dataset and could lead to imbalanced behaviors in our setting. To address the issue, we further propose a technique named prior shifting to adjust the prior distribution using curiosity-driven RL. The outcome distribution is demonstrated to offer sufficient behavioral diversity and significantly facilitates upper-level policy learning for downstream tasks. We conduct comprehensive experiments using humanoid characters on two challenging downstream tasks, sword-shield striking and two-player boxing game. Our results demonstrate that the proposed framework
+is capable of controlling the character to perform considerably high-quality movements in terms of behavioral strategies, diversity, and realism.  ">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -87,7 +89,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="index.html" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -98,7 +100,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2308.07200" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -137,8 +139,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-Recent advances in learning reusable motion priors have demonstrated its effectiveness in generating naturalistic behaviors. In this paper, we propose a new learning framework in this paradigm for controlling physics-based characters with significantly improved motion quality and diversity over existing state-of-the-art methods. The proposed method uses reinforcement learning (RL) to initially track and imitate life-like movements from unstructured motion clips using the discrete information bottleneck, as adopted in the Vector Quantised Variational AutoEncoder (VQ-VAE). This structure compresses the most relevant information from the motion clips into a compact yet informative latent space, i.e., a discrete space over vector quantised codes. By sampling codes in the space from a trained categorical prior distribution, high-quality life-like behaviors can be generated, similar to the usage of VQ-VAE in computer vision. Although this prior distribution can be trained with supervision of the encoder's output, it follows the original motion clip distribution in the dataset and could lead to imbalanced behaviors in our setting. To address the issue, we further propose a technique named prior shifting to adjust the prior distribution using curiosity-driven RL. The outcome distribution is demonstrated to offer sufficient behavioral diversity and significantly facilitate upper-level policy learning for downstream tasks. We conduct comprehensive experiments using humanoid characters on two challenging downstream tasks, sword-shield striking and two-player boxing game. Our results demonstrate that the proposed framework outperforms the state-of-the-art methods in terms of behavioral strategies, diversity and realism.
-          </p>
+Recent advances in learning reusable motion priors have demonstrated their effectiveness in generating naturalistic behaviors. In this paper, we propose a new learning framework in this paradigm for controlling physics-based characters with significantly improved motion quality and diversity over existing state-of-the-art methods. The proposed method uses reinforcement learning (RL) to initially track and imitate life-like movements from unstructured motion clips using the discrete information bottleneck, as adopted in the Vector Quantized Variational AutoEncoder (VQ-VAE). This structure compresses the most relevant information from the motion clips into a compact yet informative latent space, i.e., a discrete space over vector quantized codes. By sampling codes in the space from a trained categorical prior distribution, high-quality life-like behaviors can be generated, similar to the usage of VQ-VAE in computer vision. Although this prior distribution can be trained with the supervision of the encoder's output, it follows the original motion clip distribution in the dataset and could lead to imbalanced behaviors in our setting. To address the issue, we further propose a technique named prior shifting to adjust the prior distribution using curiosity-driven RL. The outcome distribution is demonstrated to offer sufficient behavioral diversity and significantly facilitates upper-level policy learning for downstream tasks. We conduct comprehensive experiments using humanoid characters on two challenging downstream tasks, sword-shield striking and two-player boxing game. Our results demonstrate that the proposed framework
+is capable of controlling the character to perform considerably high-quality movements in terms of behavioral strategies, diversity, and realism.           </p>
         </div>
       </div>
     </div>
@@ -146,67 +148,190 @@ Recent advances in learning reusable motion priors have demonstrated its effecti
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
+  <!-- Section 1 -->
+<section class="hero">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+      <div class="column has-text-centered">
+        <h1 class="title">Training Imitation Policy by Imitating Life-Like Motion Clips</h1>
+          <div class="content has-text-justified">
+            <div class="row">
+            <div class="col-12">
+              <br><p>
+              To control the physics-based character perform lifelike movement, we firstly train a imitation policy to mimic a set of motion clips.
+              Our framework employs a conditional VQ-VAE structure comprising an encoder-decoder and a discrete information bottleneck.
+              This structure enables training the policy to perform a wide range of diverse movements, while keeping the resulting latent space compact, i.e., a codebook.
+              This allows for efficient reuse of the learned movements in downstream tasks.
+              To demonstrate the generality of our framework, we evaluated it on two different humanoid characters,
+              one equipped with a sword and a shield with 37 degrees-of-freedom and another character is equipped with boxing gloves with 34 degrees-of-freedom.
+              The imitation policy is trained separately for each character using motion clips that last about half an hour,
+              including basic movements such as locomotion, as well as specific movements such as a set of attack combos for the actor with a sword and shield, and some boxing skills for the boxer character.
+
+              </p><br>
+            </div>
+            <div class="col-4">
+                <img src="static/images/imitate1.gif"/>
+                <!-- <h3 class="center">Imitation1</h3> -->
+            </div>
+            <div class="col-4">
+                <img src="static/images/imitate2.gif"/>
+                <!-- <h3 class="center">Imitation2</h3> -->
+            </div>
+            <div class="col-4">
+                <img src="static/images/imitate3.gif"/>
+                <!-- <h3 class="center">Imitation2 </h3> -->
+            </div>
+
+              <h3 class="center m-bottom">Performance of imitating animal motions after training latent representations over animal motion data.</h3>
+          </div>
+        </div>
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
+
+
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <div class="column has-text-centered">
+        <h1 class="title">Training a Prior to Randomly Perform a Diverse Range of Movements</h1>
+          <div class="content has-text-justified">
+            <div class="row">
+            <div class="col-12">
+              <br><p>
+When reusing the pre-trained representation in downstream tasks, existing VAE-based methods often discard the trained encoder in the imitation policy, and directly create a upper-level policy to explore the latent space to drive the fixed decoder.
+              In fact, the encoder contains valuable information from the original data distribution.
+              Here, we use the encoder to train a prior network that can generate random rollouts based on the learned movements.
+              Initially, we use policy distillation to train a categorical prior network to fit the categorical distribution of the encoder given only proprioceptive observation.
+              However, due to the imbalanced motion data, sampling codes from the trained prior distribution naturally drive the decoder to perform movements that appeared more frequently in the motion data.
+              To facilitate the exploration in downstream task learning with unknown skill preference, it is desired to have a balanced prior capable of performing a diverse range of movements with nearly uniform probability over distinct motions in the dataset.
+              To accomplish this, our framework utilizes a count-based reinforcement learning approach to fine-tune the prior distribution.
+
+              </p><br>
+            </div>
+            <div class="col-4">
+                <img src="static/images/imitate1.gif"/>
+                <!-- <h3 class="center">Imitation1</h3> -->
+            </div>
+            <div class="col-4">
+                <img src="static/images/imitate2.gif"/>
+                <!-- <h3 class="center">Imitation2</h3> -->
+            </div>
+            <div class="col-4">
+                <img src="static/images/imitate3.gif"/>
+                <!-- <h3 class="center">Imitation2 </h3> -->
+            </div>
+
+              <h3 class="center m-bottom">Performance of imitating animal motions after training latent representations over animal motion data.</h3>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="column has-text-centered">
+        <h1 class="title">Training an Upper-Level Policy to Solve Downstream Tasks</h1>
+          <div class="content has-text-justified">
+            <div class="row">
+            <div class="col-12">
+              <br><p>
+Finally, we leverage the pre-trained decoder and shifted prior distribution, which have acquired sufficient knowledge on both movement quality and diversity, to effectively solve downstream tasks by training an upper-level policy.
+                The upper-level policy takes a goal observation as input and produces a categorical distribution over codes that guide the decoder to achieve downstream tasks.
+                Additionally, we use a KL-regularized term to constrain the upper-level policy to stay close to the pre-trained prior distribution, which encourages natural and diverse movements.
+                To evaluate the effectiveness of our approach, we select one downstream task for each character: a strike task for the character with sword and shield, and a two-player boxing game for the boxer character.
+                Our experiments demonstrate that the upper-level policy can be trained more efficiently and surprisingly perform attacking and defensing strategies compared to real two-player boxing sports.
+
+              </p><br>
+            </div>
+            <div class="col-4">
+                <img src="static/images/imitate1.gif"/>
+                <!-- <h3 class="center">Imitation1</h3> -->
+            </div>
+            <div class="col-4">
+                <img src="static/images/imitate2.gif"/>
+                <!-- <h3 class="center">Imitation2</h3> -->
+            </div>
+            <div class="col-4">
+                <img src="static/images/imitate3.gif"/>
+                <!-- <h3 class="center">Imitation2 </h3> -->
+            </div>
+
+              <h3 class="center m-bottom">Performance of imitating animal motions after training latent representations over animal motion data.</h3>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image carousel -->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--       <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--          First image description.-->
+<!--        </h2>-->
+<!--      </div>-->
+<!--      <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--          Second image description.-->
+<!--        </h2>-->
+<!--      </div>-->
+<!--      <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--         Third image description.-->
+<!--       </h2>-->
+<!--     </div>-->
+<!--     <div class="item">-->
+<!--      &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Fourth image description.-->
+<!--      </h2>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
 <!-- End image carousel -->
 
 
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      &lt;!&ndash; Paper video. &ndash;&gt;-->
+<!--      <h2 class="title is-3">Video Presentation</h2>-->
+<!--      <div class="columns is-centered has-text-centered">-->
+<!--        <div class="column is-four-fifths">-->
+<!--          -->
+<!--          <div class="publication-video">-->
+<!--            &lt;!&ndash; Youtube embed code here &ndash;&gt;-->
+<!--            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
 <!-- End youtube video -->
 
 
@@ -267,7 +392,14 @@ Recent advances in learning reusable motion priors have demonstrated its effecti
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@misc{zhu2023NCP,
+      title={Neural Categorical Priors for Physics-Based Character Control},
+      author={Qingxu Zhu and He Zhang and Mengting Lan and Lei Han},
+      year={2023},
+      eprint={2308.07200},
+      archivePrefix={arXiv},
+      primaryClass={cs.GR}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -281,8 +413,6 @@ Recent advances in learning reusable motion priors have demonstrated its effecti
 
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
         </div>
