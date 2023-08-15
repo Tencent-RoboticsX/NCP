@@ -158,7 +158,7 @@ is capable of controlling the character to perform considerably high-quality mov
             <div class="row">
             <div class="col-12">
               <br><p>
-              To control the physics-based character perform lifelike movement, we firstly train a imitation policy to mimic a set of motion clips.
+              To control the physics-based character perform lifelike movement, we firstly train an imitation policy to mimic a set of motion clips.
               Our framework employs a conditional VQ-VAE structure comprising an encoder-decoder and a discrete information bottleneck.
               This structure enables training the policy to perform a wide range of diverse movements, while keeping the resulting latent space compact, i.e., a codebook.
               This allows for efficient reuse of the learned movements in downstream tasks.
@@ -169,17 +169,13 @@ is capable of controlling the character to perform considerably high-quality mov
 
               </p><br>
             </div>
-            <div class="col-4">
+            <div class="col-6">
                 <img src="static/images/tracking_strike.gif" width="400" height="300" />
                 <!-- <h3 class="center">Imitation1</h3> -->
             </div>
-            <div class="col-4">
-                <img src="static/images/imitate2.gif"/>
+            <div class="col-6">
+                <img src="static/images/tracking_boxing.gif" width="400" height="300" />
                 <!-- <h3 class="center">Imitation2</h3> -->
-            </div>
-            <div class="col-4">
-                <img src="static/images/imitate3.gif"/>
-                <!-- <h3 class="center">Imitation2 </h3> -->
             </div>
 
               <h3 class="center m-bottom">Performance of imitating animal motions after training latent representations over animal motion data.</h3>
@@ -215,7 +211,7 @@ When reusing the pre-trained representation in downstream tasks, existing VAE-ba
                 <!-- <h3 class="center">Imitation1</h3> -->
             </div>
             <div class="col-4">
-                <img src="static/images/prior_strike.gif" width="400" height="300" />
+                <img src="static/images/prior_boxing.gif" width="400" height="300" />
                 <!-- <h3 class="center">Imitation2</h3> -->
             </div>
 
